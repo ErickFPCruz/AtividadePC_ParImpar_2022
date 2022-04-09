@@ -7,5 +7,10 @@ numeroEscrito = Convert.ToDouble(Console.ReadLine());
 
 if (numeroEscrito % 2 == 1)
 {
-    Console.WriteLine();
+    Console.WriteLine($"O número {numeroEscrito} é ímpar...");
+}
+
+else
+{
+    Console.WriteLine($"O número {numeroEscrito} é par!");
 }
